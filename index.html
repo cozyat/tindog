@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog™</title>
+  <link rel="icon" type="image/tindog-icon" href="images/favicon.ico">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/3ea53c1d6b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title" style="background-image: url('images/pink-topo.jpg');">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand" href="index.html">tindog™ | </a> <a class="navbar-brand" href="index.html"><small>a project by soham p.</small></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="appstore-redirect.html">Buy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="information.html">Information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
+          <button type="button" onclick="window.location.href='https://apps.apple.com/in/app/tindog-app/id1550504196';"
+            class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
+            Download</button>
+          <button type="button"
+            onclick="window.location.href='https://play.google.com/store/apps/details?id=com.tindog.tindog&hl=en_US&gl=US';"
+            class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+            Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 feature-box">
+          <i class="fas fa-check-circle fa-4x icon"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p class="black">So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 feature-box">
+          <i class="fas fa-bullseye fa-4x icon"></i>
+          <h3 class="feature-title">Elite Clientele.</h3>
+          <p class="black">We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 feature-box">
+          <i class="fas fa-heart fa-4x icon"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p class="black">Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on
+            TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, Dallas</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of
+            their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Rebecca, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Press -->
+
+  <h2 class="testimonial-text" section class="colored-section" id="press" style="font-family:palatino; color:white;">
+    <b><i> TinDog is Reccomended by:</i></b></i>
+  </h2>
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p class="black">Simple and affordable price plans for you and your dog.</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Pomeranian</h3>
+          </div>
+
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p class="black">5 Matches Per Day</p>
+            <p class="black">10 Messages Per Day</p>
+            <p class="black">Unlimited App Usage</p>
+            <button type="button" onclick="window.location.href='appstore-redirect.html';"
+              class="btn btn-outline-dark btn-block">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador (Best Seller)</h3>
+          </div>
+
+          <div class="card-body">
+            <h2 class="price-text">$49 / mo</h2>
+            <p class="black">Unlimited Matches</p>
+            <p class="black">Unlimited Messages</p>
+            <p class="black">Unlimited App Usage</p>
+            <button type="button" onclick="window.location.href='appstore-redirect.html';"
+              class="btn btn-outline-dark btn-block">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <style>
+              #shadowBox {
+                background-color: rgb(0, 0, 0);
+                /* Fallback color */
+                background-color: rgba(0, 0, 0, 0.2);
+                /* Black w/opacity/see-through */
+                border: 3px solid;
+              }
+
+              .rainbow {
+                text-align: center;
+                text-decoration: underline;
+                font-size: 32px;
+                font-family: monospace;
+                letter-spacing: 5px;
+                animation: colorRotate 6s linear 0s infinite;
+              }
+
+              @keyframes colorRotate {
+                from {
+                  color: #6666ff;
+                }
+
+                10% {
+                  color: #0099ff;
+                }
+
+                50% {
+                  color: #00ff00;
+                }
+
+                75% {
+                  color: #ff3399;
+                }
+
+                100% {
+                  color: #6666ff;
+                }
+              }
+            </style>
+
+            <h3>Doberman <h3 class="rainbow" href="#" style="text-decoration: none;">
+                <font size="+3">(17% DISCOUNT!)</font>
+              </h3>
+            </h3>
+          </div>
+
+          <div class="card-body">
+            <h2 class="price-text"><s>$99</s>
+              <h2>$89 / mo</h2>
+            </h2>
+            <p class="black">Priority Listing</p>
+            <p class="black">Everything Included!</p>
+            <button type="button" onclick="window.location.href='appstore-redirect.html';"
+              class="btn btn-outline-dark btn-block">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section style="background-image: url('images/gifgit.gif')" class="colored-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" onclick="window.location.href='https://apps.apple.com/in/app/tindog-app/id1550504196';"
+        class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
+        Download</button>
+      <button type="button"
+        onclick="window.location.href='https://play.google.com/store/apps/details?id=com.tindog.tindog&hl=en_US&gl=US';"
+        class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+        Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="white-footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p></p>
+      <p class="pink">Copyright &copy;
+        <script>document.write(new Date().getFullYear())</script> TinDog™ by Soham Panda
+      </p>
+      <p class="pink">DISCLAIMER: This website is not a real life dating app for dogs and this is a full-stack
+        programming project.</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

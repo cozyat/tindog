@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog™</title>
+  <link rel="icon" type="image/tindog-icon" href="images/favicon.ico">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/3ea53c1d6b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand" href="index.html">tindog™</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="appstore-redirect.html">Buy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="information.html">Information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Question: Please Pick a Plan.-->
+
+      <section class="white-section" id="pricing">
+
+        <h2 style="color:black;" class="section-heading">Please Pick a Plan.</h2>
+        <p class="black">Select a plan that best fits for you and your dog.</p>
+    
+        <div class="row">
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 style="color:black;">Pomeranian</h3>
+              </div>
+    
+              <div class="card-body">
+                <h2 style="color:black;" class="price-text">Free</h2>
+                <p class="black">5 Matches Per Day</p>
+                <p class="black">10 Messages Per Day</p>
+                <p class="black">Unlimited App Usage</p>
+                <button type="button" onclick="window.location.href='signup-pome.html';" class="btn btn-outline-dark btn-block">Buy</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 style="color:black;">Labrador (Best Seller)</h3>
+              </div>
+    
+              <div class="card-body">
+                <h2 style="color:black;" class="price-text">$49 / mo</h2>
+                <p class="black">Unlimited Matches</p>
+                <p class="black">Unlimited Messages</p>
+                <p class="black">Unlimited App Usage</p>
+                <button type="button" onclick="window.location.href='signup-labra.html';" class="btn btn-outline-dark btn-block">Buy</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="pricing-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <style>
+                  #shadowBox {
+                    background-color: rgb(0, 0, 0);
+                    /* Fallback color */
+                    background-color: rgba(0, 0, 0, 0.2);
+                    /* Black w/opacity/see-through */
+                    border: 3px solid;
+                  }
+    
+                  .rainbow {
+                    text-align: center;
+                    text-decoration: underline;
+                    font-size: 32px;
+                    font-family: monospace;
+                    letter-spacing: 5px;
+                    animation: colorRotate 6s linear 0s infinite;
+                  }
+    
+                  @keyframes colorRotate {
+                    from {
+                      color: #6666ff;
+                    }
+    
+                    10% {
+                      color: #0099ff;
+                    }
+    
+                    50% {
+                      color: #00ff00;
+                    }
+    
+                    75% {
+                      color: #ff3399;
+                    }
+    
+                    100% {
+                      color: #6666ff;
+                    }
+                  }
+                </style>
+    
+                <h3 style="color:black;">Doberman <h3 class="rainbow" href="#" style="text-decoration: none;">
+                    <font size="+3">(17% DISCOUNT!)</font>
+                  </h3>
+                </h3>
+              </div>
+    
+              <div class="card-body">
+                <h2 style="color:black;" class="price-text"><s>$99</s>
+                  <h2 style="color:black;">$89 / mo</h2>
+                </h2>
+                <p class="black">Priority Listing</p>
+                <p class="black">Everything Included!</p>
+                <button type="button" onclick="window.location.href='signup-dober.html';" class="btn btn-outline-dark btn-block">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+          <!-- Footer -->
+
+    <footer class="pink-section" id="pink-footer">
+    <center><div class="container-fluid"></center>
+          <i class="social-icon fab fa-twitter"></i>
+          <i class="social-icon fab fa-facebook-f"></i>
+          <i class="social-icon fab fa-instagram"></i>
+          <i class="social-icon fas fa-envelope"></i>
+          <p></p>
+          <p>Copyright &copy;
+            <script>document.write(new Date().getFullYear())</script> TinDog™ by Soham Panda</p>
+            <p class="white">DISCLAIMER: This website is not a real life dating app for dogs and this is a full-stack programming project.</p>
+        </div>
+      </footer>
+    
+    
+    </body>
+  
+    </html>

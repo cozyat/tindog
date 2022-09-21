@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog™</title>
+  <link rel="icon" type="image/tindog-icon" href="images/favicon.ico">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/3ea53c1d6b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand" href="index.html">tindog™</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="appstore-redirect.html">Buy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="information.html">Information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </nav>
+
+      <!--Checkout-->
+
+      <style>
+        body {
+          font-family: Arial;
+          font-size: 17px;
+          padding: 8px;
+          background-color: #FF4C68;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        .row {
+          display: -ms-flexbox;
+          /* IE10 */
+          display: flex;
+          -ms-flex-wrap: wrap;
+          /* IE10 */
+          flex-wrap: wrap;
+          margin: 0 -16px;
+        }
+
+        .col-25 {
+          -ms-flex: 25%;
+          /* IE10 */
+          flex: 25%;
+        }
+
+        .col-50 {
+          -ms-flex: 50%;
+          /* IE10 */
+          flex: 50%;
+        }
+
+        .col-75 {
+          -ms-flex: 75%;
+          /* IE10 */
+          flex: 75%;
+        }
+
+        .col-25,
+        .col-50,
+        .col-75 {
+          padding: 0 16px;
+        }
+
+        .container {
+          background-color: #f2f2f2;
+          padding: 5px 20px 15px 20px;
+          border: 1px solid lightgrey;
+          border-radius: 3px;
+        }
+
+        input[type=text] {
+          width: 100%;
+          margin-bottom: 20px;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+        }
+
+        label {
+          margin-bottom: 10px;
+          display: block;
+        }
+
+        .icon-container {
+          margin-bottom: 20px;
+          padding: 7px 0;
+          font-size: 24px;
+        }
+
+        .btn {
+          background-color: #FF4C68;
+          color: white;
+          padding: 12px;
+          margin: 10px 0;
+          border: none;
+          width: 100%;
+          border-radius: 3px;
+          cursor: pointer;
+          font-size: 17px;
+        }
+
+        .btn:hover {
+          background-color: #ff2848;
+        }
+
+        a {
+          color: black;
+        }
+
+        hr {
+          border: 1px solid lightgrey;
+        }
+
+        span.price {
+          float: right;
+          color: grey;
+        }
+
+        h3 {
+          color: black;
+        }
+
+        @media (max-width: 800px) {
+          .row {
+            flex-direction: column-reverse;
+          }
+
+          .col-25 {
+            margin-bottom: 20px;
+          }
+        }
+      </style>
+      </head>
+
+      <body>
+
+        <h2>Checkout Form</h2>
+        <p style="color:white;">Please fill in all boxes below.</p>
+        <p style="color:white;">Note: We will not share any private/personal information to third-party organizations or
+          to anyone else.</p>
+        <div class="row">
+          <div class="col-75">
+            <div class="container">
+              <form action="transaction-complete.html">
+
+                <div class="row">
+                  <div class="col-50">
+                    <h3>Billing Address</h3>
+                    <label style="color:black;" for="fname"><i class="fa fa-user"></i> Full Name</label>
+                    <input style="color:black;" type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                    <label style="color:black;" for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input style="color:black;" type="text" id="email" name="email" placeholder="john@example.com">
+                    <label style="color:black;" for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                    <input style="color:black;" type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                    <label style="color:black;" for="city"><i class="fa fa-institution"></i> City</label>
+                    <input style="color:black;" type="text" id="city" name="city" placeholder="New York">
+
+                    <div class="row">
+                      <div class="col-50">
+                        <label style="color:black;" for="state">State</label>
+                        <input style="color:black;" type="text" id="state" name="state" placeholder="NY">
+                      </div>
+                      <div class="col-50">
+                        <label style="color:black;" for="zip">Zip</label>
+                        <input style="color:black;" type="text" id="zip" name="zip" placeholder="10001">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <label style="color:black;">
+                  <input type="checkbox" checked="checked" name="sameadr"> This is a gift 🎁
+                </label>
+                <input style="color:white;" type="submit" value="Purchase" class="btn">
+              </form>
+            </div>
+          </div>
+          <div class="col-25">
+            <div class="container">
+              <h4 style="color:black;">Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i>
+                  <b>1</b></span></h4>
+              <p style="color:black;"><a href="#">Pomeranian Bundle</a> <span class="price">Free</span></p>
+              <hr>
+              <p style="color:black;">Tax <span class="price" style="color:black"><b>None</b></span></p>
+              <p style="color:black;">Grand Total <span class="price" style="color:black"><b>$0.00</b></span></p>
+            </div>
+          </div>
+        </div>
+
+      </body>
+
+<!-- Footer -->
+
+<footer class="pink-section" id="pink-footer">
+  <center>
+    <div class="container-fluid">
+  </center>
+  <i class="social-icon fab fa-twitter"></i>
+  <i class="social-icon fab fa-facebook-f"></i>
+  <i class="social-icon fab fa-instagram"></i>
+  <i class="social-icon fas fa-envelope"></i>
+  <p></p>
+  <p>Copyright &copy;
+    <script>document.write(new Date().getFullYear())</script> TinDog™ by Soham Panda
+  </p>
+  <p class="white">DISCLAIMER: This website is not a real life dating app for dogs and this is a full-stack programming
+    project.</p>
+  </div>
+</footer>
+
+
+</body>
+
+</html>
